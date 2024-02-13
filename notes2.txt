@@ -1,0 +1,24 @@
+# mouse call values
+events = {
+    0:"mouse hovered",
+    1:"lmb down",
+    4:"lmb up",
+    2:"rmb down",
+    5:"rmb up",
+    3:"scroll button down",
+    6:"scroll button up",
+    7:"double lmb",
+    8:"double rmb",
+    9:"double sb",
+    10:"scrolling"
+    11:"scrolling h"
+}
+
+# defining function for mouse callback
+cv2.imshow("win",img)
+
+cv2.namedWindow(winname="win")
+cv2.setMouseCallback("win",draw)
+
+
+
